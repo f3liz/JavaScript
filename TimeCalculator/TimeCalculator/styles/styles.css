@@ -1,0 +1,53 @@
+/*
+This file contains the css code for the Time calculator webpage
+Author: Felix Chen
+Date: 10/16/23
+File name: styles.css
+ */
+body {
+    background-image: url("../images/clock.jpg");
+    margin: 0;
+}
+
+main {
+    background-color: #e0e0e0;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    font-size: 20px;
+    width: 80%;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    padding: 25px 0 25px 0;
+    font-size: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 12% 3% 12%;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+    padding-top: 15px;
+    margin: auto;
+    width: 40%;
+}
+
+label {
+    width: 40%;
+    font-size: 20px;
+}
