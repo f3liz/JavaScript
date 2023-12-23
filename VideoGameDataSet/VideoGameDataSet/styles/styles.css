@@ -1,0 +1,58 @@
+/*
+contains all my CSS code for dataset webpage
+
+Author: Felix Chen
+Date: 11/14/23
+File name: styles.css
+*/
+/* layout logic */
+body {
+    display: grid;
+    width: 900px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* your styles go here... */
+
+html {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/most-popular-video-games-of-2022-1642612227.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 60px;
+}
+
+main {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+div:nth-of-type(1) {
+    background-color: #e1e1e1;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+aside {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 130px;
+}
+
+h1, h2, p {
+    padding-left: 10px;
+}
+
+section {
+    padding: 10px 0 15px 12px;
+}
+
+li {
+    padding: 10px 5px 10px 0;
+}

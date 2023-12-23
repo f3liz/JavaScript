@@ -1,0 +1,74 @@
+<!--
+contains my HTML code for dataset webpage
+
+Author: Felix Chen
+Date: 11/14/23
+File name: show_data.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Video games Dataset</title>
+
+        <!-- styles for the page... -->
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts/data.js"></script>
+
+    </head>
+    <body>
+        <main id="left-column">
+            <div>
+            <h1>Video games Dataset</h1>
+            <p>This dataset contains information regarding video games' sales and
+                playtime numbers for video games released from 2004 to 2010. There
+                are <span id = "elements"></span> elements in this dataset.</p>
+            </div>
+            <div>
+                <section>
+                    <label>Title:</label>
+                    <span id="title">Value</span>
+                </section>
+                <section>
+                    <label>Number of players:</label>
+                    <span id="players">Value</span>
+                </section>
+                <section>
+                    <label>Genre:</label>
+                    <span id="genre">Value</span>
+                </section>
+                <section>
+                    <label>Year Released:</label>
+                    <span id="release">Value</span>
+                </section>
+                <section>
+                    <label>Rating:</label>
+                    <span id="rating">Value</span>
+                </section>
+                <section>
+                    <label>Device Released On:</label>
+                    <span id="device">Value</span>
+                </section>
+
+                <section>
+                    <button id="previous">Previous</button>
+                    <button id="next">Next</button>
+                </section>
+            </div>
+        </main>
+        <aside id="right-column">
+            <h2>Here are some interesting facts in my dataset!</h2>
+            <ul>
+                <li id="fact1">The average used price of videos games
+                 in the dataset is $<span id = "average"></span>!</li>
+                <li id="fact2"><span id = "game"></span> has the highest
+                used price of $<span id = "price"></span>!</li>
+                <li id="fact3">From the dataset, <span id = "count"></span> games
+                have been released on Nintendo DS!</li>
+            </ul>
+        </aside>
+
+        <script src="scripts/program_behavior.js"></script>
+    </body>
+</html>
+
