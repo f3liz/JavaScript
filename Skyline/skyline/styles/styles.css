@@ -1,0 +1,10 @@
+/*
+This file contains the css code for the skyline canvas
+Author: Felix Chen
+Date: 10/31/23
+File name: styles.css
+ */
+#my-canvas {
+    border: 2px solid black;
+    background-color: blue;
+}
