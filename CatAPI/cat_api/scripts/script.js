@@ -19,7 +19,7 @@ window.onload = async () => {
         mode: "cors",
         headers: {
             "Content-type": "application/json",
-            "x-api-key": "live_1nc1knkevSitFBuKOzYvPFKqI1FEHlYiCdZesG2OYg3Cw6VwyjnIC3yruYvrJoVr"
+            "x-api-key": "(insert cat api key)"
         }
     };
 
